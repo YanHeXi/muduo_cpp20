@@ -1,0 +1,11 @@
+{
+    options = {
+        plat = "linux",
+        mode = "release",
+        arch = "x86_64"
+    },
+    mtimes = {
+        ["xmake.lua"] = 1701077191
+    },
+    recheck = false
+}

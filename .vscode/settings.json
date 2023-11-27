@@ -1,0 +1,9 @@
+{
+    "C_Cpp.default.customConfigurationVariables": {},
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.default.cStandard": "c23",
+    "C_Cpp.default.cppStandard": "c++23",
+    "files.associations": {
+        "*.ixx": "cpp"
+    }
+}

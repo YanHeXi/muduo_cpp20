@@ -1,0 +1,101 @@
+[
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "nocopyable.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/nocopyable.ixx.o"],
+  "file": "nocopyable.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "InetAddress.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/InetAddress.ixx.o"],
+  "file": "InetAddress.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "CurrentThread.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/CurrentThread.ixx.o"],
+  "file": "CurrentThread.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "TcpServer.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/TcpServer.ixx.o"],
+  "file": "TcpServer.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "Timestamp.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/Timestamp.ixx.o"],
+  "file": "Timestamp.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "EventLoop.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/EventLoop.ixx.o"],
+  "file": "EventLoop.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "Channel.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/Channel.ixx.o"],
+  "file": "Channel.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "Poller.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/Poller.ixx.o"],
+  "file": "Poller.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "EPollPoller.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/EPollPoller.ixx.o"],
+  "file": "EPollPoller.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-x", "c++", "-c", "Logger.ixx", "-o", "build/.objs/cpp/linux/x86_64/release/Logger.ixx.o"],
+  "file": "Logger.ixx"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/EventLoop.cpp.o", "EventLoop.cpp"],
+  "file": "EventLoop.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/DefaultPoller.cpp.o", "DefaultPoller.cpp"],
+  "file": "DefaultPoller.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/Timestamp.cpp.o", "Timestamp.cpp"],
+  "file": "Timestamp.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/main.cpp.o", "main.cpp"],
+  "file": "main.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/Poller.cpp.o", "Poller.cpp"],
+  "file": "Poller.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/Channel.cpp.o", "Channel.cpp"],
+  "file": "Channel.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/Logger.cpp.o", "Logger.cpp"],
+  "file": "Logger.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/InetAddress.cpp.o", "InetAddress.cpp"],
+  "file": "InetAddress.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/TcpServer.cpp.o", "TcpServer.cpp"],
+  "file": "TcpServer.cpp"
+},
+{
+  "directory": "/home/yanhexi/Downloads/test",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-std=c++20", "-fmodules-ts", "-fmodule-mapper=build/cpp/mapper.txt", "-D_GLIBCXX_USE_CXX11_ABI=0", "-o", "build/.objs/cpp/linux/x86_64/release/EPollPoller.cpp.o", "EPollPoller.cpp"],
+  "file": "EPollPoller.cpp"
+}]

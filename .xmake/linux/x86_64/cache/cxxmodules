@@ -1,0 +1,473 @@
+{
+    modules = {
+        ["cpp/c++.build.modules.builder"] = {
+            ["build/.objs/cpp/linux/x86_64/release/Poller.ixx.o"] = {
+                provides = {
+                    Poller = {
+                        interface = true,
+                        sourcefile = "Poller.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Poller.gcm"
+                    }
+                },
+                requires = {
+                    Timestamp = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    },
+                    vector = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/vector"
+                    },
+                    Channel = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Channel.gcm"
+                    },
+                    nocopyable = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/nocopyable.gcm"
+                    },
+                    unordered_map = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/unordered_map"
+                    },
+                    cstdio = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/cstdio"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/Timestamp.ixx.o"] = {
+                provides = {
+                    Timestamp = {
+                        interface = true,
+                        sourcefile = "Timestamp.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    }
+                },
+                requires = {
+                    string = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/string"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/TcpServer.cpp.o"] = {
+                requires = {
+                    TcpServer = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/TcpServer.gcm"
+                    }
+                },
+                cppfile = "TcpServer.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/main.cpp.o"] = {
+                cppfile = "main.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/Channel.cpp.o"] = {
+                requires = {
+                    Logger = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Logger.gcm"
+                    },
+                    Timestamp = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    },
+                    Channel = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Channel.gcm"
+                    },
+                    ["sys/epoll.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/sys/epoll.h"
+                    }
+                },
+                cppfile = "Channel.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/TcpServer.ixx.o"] = {
+                provides = {
+                    TcpServer = {
+                        interface = true,
+                        sourcefile = "TcpServer.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/TcpServer.gcm"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/nocopyable.ixx.o"] = {
+                provides = {
+                    nocopyable = {
+                        interface = true,
+                        sourcefile = "nocopyable.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/nocopyable.gcm"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/InetAddress.cpp.o"] = {
+                requires = {
+                    ["arpa/inet.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/arpa/inet.h"
+                    },
+                    cstring = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/cstring"
+                    },
+                    ["netinet/in.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/netinet/in.h"
+                    },
+                    InetAddress = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/InetAddress.gcm"
+                    },
+                    string = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/string"
+                    }
+                },
+                cppfile = "InetAddress.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/InetAddress.ixx.o"] = {
+                provides = {
+                    InetAddress = {
+                        interface = true,
+                        sourcefile = "InetAddress.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/InetAddress.gcm"
+                    }
+                },
+                requires = {
+                    ["arpa/inet.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/arpa/inet.h"
+                    },
+                    ["netinet/in.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/netinet/in.h"
+                    },
+                    string = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/string"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/CurrentThread.ixx.o"] = {
+                provides = {
+                    CurrentThread = {
+                        interface = true,
+                        sourcefile = "CurrentThread.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/CurrentThread.gcm"
+                    }
+                },
+                requires = {
+                    ["unistd.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/unistd.h"
+                    },
+                    ["sys/syscall.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/sys/syscall.h"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/EventLoop.cpp.o"] = {
+                cppfile = "EventLoop.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/Channel.ixx.o"] = {
+                provides = {
+                    Channel = {
+                        interface = true,
+                        sourcefile = "Channel.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Channel.gcm"
+                    }
+                },
+                requires = {
+                    memory = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/memory"
+                    },
+                    functional = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/functional"
+                    },
+                    Timestamp = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    },
+                    nocopyable = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/nocopyable.gcm"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/DefaultPoller.cpp.o"] = {
+                requires = {
+                    cstdlib = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/cstdlib"
+                    },
+                    Poller = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Poller.gcm"
+                    },
+                    EPollPoller = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/EPollPoller.gcm"
+                    }
+                },
+                cppfile = "DefaultPoller.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/EventLoop.ixx.o"] = {
+                provides = {
+                    EventLoop = {
+                        interface = true,
+                        sourcefile = "EventLoop.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/EventLoop.gcm"
+                    }
+                },
+                requires = {
+                    CurrentThread = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/CurrentThread.gcm"
+                    },
+                    memory = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/memory"
+                    },
+                    Timestamp = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    },
+                    nocopyable = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/nocopyable.gcm"
+                    },
+                    vector = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/vector"
+                    },
+                    functional = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/functional"
+                    },
+                    atomic = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/atomic"
+                    },
+                    mutex = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/mutex"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/Logger.cpp.o"] = {
+                requires = {
+                    Logger = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Logger.gcm"
+                    },
+                    Timestamp = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    },
+                    iostream = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/iostream"
+                    }
+                },
+                cppfile = "Logger.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/Timestamp.cpp.o"] = {
+                requires = {
+                    ctime = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/ctime"
+                    },
+                    Timestamp = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    },
+                    string = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/string"
+                    }
+                },
+                cppfile = "Timestamp.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/EPollPoller.ixx.o"] = {
+                provides = {
+                    EPollPoller = {
+                        interface = true,
+                        sourcefile = "EPollPoller.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/EPollPoller.gcm"
+                    }
+                },
+                requires = {
+                    ["sys/epoll.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/sys/epoll.h"
+                    },
+                    Channel = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Channel.gcm"
+                    },
+                    vector = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/vector"
+                    },
+                    Poller = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Poller.gcm"
+                    },
+                    Timestamp = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    }
+                }
+            },
+            ["build/.objs/cpp/linux/x86_64/release/EPollPoller.cpp.o"] = {
+                requires = {
+                    Logger = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Logger.gcm"
+                    },
+                    cerrno = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/cerrno"
+                    },
+                    cstring = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/cstring"
+                    },
+                    Poller = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Poller.gcm"
+                    },
+                    EPollPoller = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/EPollPoller.gcm"
+                    },
+                    Channel = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Channel.gcm"
+                    },
+                    ["unistd.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/unistd.h"
+                    },
+                    ["strings.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/strings.h"
+                    },
+                    Timestamp = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Timestamp.gcm"
+                    },
+                    ["sys/epoll.h"] = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/sys/epoll.h"
+                    }
+                },
+                cppfile = "EPollPoller.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/Poller.cpp.o"] = {
+                requires = {
+                    Channel = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Channel.gcm"
+                    },
+                    Poller = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Poller.gcm"
+                    }
+                },
+                cppfile = "Poller.cpp"
+            },
+            ["build/.objs/cpp/linux/x86_64/release/Logger.ixx.o"] = {
+                provides = {
+                    Logger = {
+                        interface = true,
+                        sourcefile = "Logger.ixx",
+                        bmi = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/Logger.gcm"
+                    }
+                },
+                requires = {
+                    iostream = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/iostream"
+                    },
+                    string = {
+                        unique = true,
+                        method = "include-angle",
+                        path = "/usr/include/c++/13.2.1/string"
+                    },
+                    nocopyable = {
+                        unique = false,
+                        method = "by-name",
+                        path = "build/.gens/cpp/linux/x86_64/release/rules/modules/cache/d2e788e0/nocopyable.gcm"
+                    }
+                }
+            }
+        }
+    }
+}
